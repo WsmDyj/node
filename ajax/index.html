@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>axios</title>
+</head>
+<body>
+    <div class="info">
+        <p class="name"></p>
+        <p class="desc"></p>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+
+         axios.get('/info')
+            .then(data => {
+                document.querySelector('.desc').innerHTML =  data.data.desc;
+                document.querySelector('.uname').innerHTML = data.data.name;
+            })
+    </script>
+</body>
+</html>

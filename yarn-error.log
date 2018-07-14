@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\邬嗣敏\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemone -g
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\邬嗣敏\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\邬嗣敏\AppData\Local\Programs\Python\Python36\;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\邬嗣敏\AppData\Local\Microsoft\WindowsApps;C:\Users\邬嗣敏\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\邬嗣敏\AppData\Roaming\npm;C:\Users\邬嗣敏\AppData\Local\Yarn\bin;D:\ttmoyi\adbdriver;C:\Program Files\MongoDB\Server\4.0\bin;
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  9.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/nodemone: Not found
+      at Request.params.callback [as _callback] (C:\Users\邬嗣敏\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:65327:18)
+      at Request.self.callback (C:\Users\邬嗣敏\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:133155:22)
+      at Request.emit (events.js:180:13)
+      at Request.<anonymous> (C:\Users\邬嗣敏\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:134138:10)
+      at Request.emit (events.js:180:13)
+      at IncomingMessage.<anonymous> (C:\Users\邬嗣敏\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:134058:12)
+      at Object.onceWrapper (events.js:272:13)
+      at IncomingMessage.emit (events.js:185:15)
+      at endReadableNT (_stream_readable.js:1106:12)
+      at process._tickCallback (internal/process/next_tick.js:178:19)
+
+npm manifest: 
+  {
+    "name": "node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "benging.js",
+    "dependencies": {
+      "cheerio": "^1.0.0-rc.2",
+      "ejs": "^2.6.1",
+      "express": "^4.16.3",
+      "koa": "^2.5.1",
+      "koa-static": "^5.0.0",
+      "koa-views": "^6.1.4",
+      "koa2-cors": "^2.0.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
